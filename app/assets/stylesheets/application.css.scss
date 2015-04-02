@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+.sidebar {
+  width: 200px;
+  float: left;
+}
+
+.content {
+  float: left;
+}
